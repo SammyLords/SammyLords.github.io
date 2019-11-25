@@ -1,0 +1,49 @@
+h1 {
+    color: darkred;
+    font-size: 3em;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+body{
+    background-image: url("rose.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: darkred;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav ul li{
+    float: left;
+    background-color: goldenrod;
+}
+nav ul li a {
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: honeydew;
+    text-decoration: none;
+    font-size: 2em;
+text-transform: uppercase;
+font-family: sans-serif;
+}
+nav ul li a:hover{
+    background-color: rgb(216, 190, 58);
+}
